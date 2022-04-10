@@ -1,4 +1,4 @@
-package main
+package blockchain
 
 import (
 	"bytes"
@@ -43,4 +43,8 @@ func (chain *BlockChain) AddBlock(data string) {
 	prevBlock := chain.blocks[len(chain.blocks)-1]
 	newBlock := CreateBlock(data, prevBlock.Hash)
 	chain.blocks = append(chain.blocks, newBlock)
+}
+
+func (chain *BlockChain) GetBlocks() []*Block {
+	return chain.blocks
 }
