@@ -1,6 +1,6 @@
 # Block
 
-This is a small Block chain on Golang used to learn about the basic concepts of blockchain.
+This is a small Blockchain on Golang used to learn about the basic concepts of blockchain based on this [series](https://dev.to/nheindev/series/11864).
 
 
 ## Simple blochchain
